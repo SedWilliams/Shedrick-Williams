@@ -1,0 +1,9 @@
+.text {
+    position: absolute;
+    font-size: 20px;
+    color: #FFFFFF;
+    width: 100%;
+    text-align: center;
+    display: block;
+    top: 50%;
+}

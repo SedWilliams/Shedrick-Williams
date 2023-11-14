@@ -1,0 +1,45 @@
+
+.navbar {
+    background-color: #272b2b;
+    color: #ffffff;
+    font-size: 1.5em;
+    height: auto;
+    position: fixed;
+    width: 100%;
+    
+    /* Desktop Navbar */
+    @media (min-width: 1024px) {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2em;
+        margin: 0; 
+    }
+
+    /* Mobile/Tablet navbar */
+    @media (max-width: 480px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1.1em;
+    }
+}
+
+.navbar__right {
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1.2em;
+
+    /* Desktop */
+    @media (min-width: 1024px) {
+        width: 35%;
+    }
+
+    /* Mobile/Tablet */
+    @media (max-width: 480px) {
+        width: 100%;
+    }
+
+}
