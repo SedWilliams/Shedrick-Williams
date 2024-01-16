@@ -1,11 +1,11 @@
 
 .navbar {
-    background-color: #272b2b;
-    color: #ffffff;
+    background:  #282c34;
+    color: #abb2bf;
     font-size: 1.5em;
     height: auto;
     position: fixed;
-    width: 100%;
+    width: 90%;
     
     /* Desktop Navbar */
     @media (min-width: 1024px) {
@@ -17,12 +17,12 @@
     }
 
     /* Mobile/Tablet navbar */
-    @media (max-width: 480px) {
+    @media (max-width: 844px) {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        justify-content:space-between;
         align-items: center;
-        padding: 1.1em;
+        padding-top: 10px;
+        margin: 5px;
     }
 }
 
@@ -30,7 +30,6 @@
     font-size: 1rem;
     display: flex;
     justify-content: space-evenly;
-    padding-top: 1.2em;
 
     /* Desktop */
     @media (min-width: 1024px) {
@@ -39,7 +38,7 @@
 
     /* Mobile/Tablet */
     @media (max-width: 480px) {
-        width: 100%;
+        width: 1.5rem;
     }
 
 }

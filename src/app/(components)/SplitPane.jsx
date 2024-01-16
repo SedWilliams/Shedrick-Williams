@@ -7,16 +7,16 @@ const SplitPane = () => {
     <div className="splitpane">
 
       <div className="split__image">
-        <Image 
-            src="/imgs/me.jpg" alt="Me" className="split__image-profile"
-            width={200}
-            height={200}
+        <img
+            src="/imgs/shedrick.jpg" alt="Me" className="split__image-profile" 
         /> 
       </div>
 
       <div className="split__bio">
-        <h2 className="split__bio-header">Software (Developer);</h2>
+        <h2 className="split__bio-header" style={{color: '#c678dd'}}>Software (<span style={{color: '#e06c75'}}>developer</span>);</h2>
+        <hr />
         <p className="split__bio-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
         <div className='split__bio-buttons'>
             <a>View some projects</a>
