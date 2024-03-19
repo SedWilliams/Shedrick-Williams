@@ -1,11 +1,8 @@
 
 .navbar {
-    background:  #282c34;
-    color: #abb2bf;
-    font-size: 1.5em;
     height: auto;
     position: fixed;
-    width: 90%;
+    width: 100%;
     
     /* Desktop Navbar */
     @media (min-width: 1024px) {
@@ -27,7 +24,6 @@
 }
 
 .navbar__right {
-    font-size: 1rem;
     display: flex;
     justify-content: space-evenly;
 
@@ -42,3 +38,4 @@
     }
 
 }
+

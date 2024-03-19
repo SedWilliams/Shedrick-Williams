@@ -4,6 +4,6 @@ import '../(styles)/Archives.css';
 export default function Page() {
     
         return(
-            <p className='text'>Archives Page</p>
+            <p className='text'>Blog Page</p>
         );
 }

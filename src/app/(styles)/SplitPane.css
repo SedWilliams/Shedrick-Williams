@@ -4,7 +4,7 @@
     display: flex;
     background:  #282c34;
     position: absolute;
-    top: 135px;
+    top: 8rem;
 
     /* Desktop */
     @media (min-width: 1024px) {
@@ -24,6 +24,7 @@
 
     border-radius: 500px;
     margin-right: 6rem;
+    margin-top: 1rem;
 
     @media (min-width: 1024px) {
 
@@ -48,11 +49,5 @@
 }
 
 .split__bio-text {
-    max-width: 50%;
-    padding: 0;
-    margin: 0;
-    font-size: 1rem;
-}
-
-.splitpane {
+    
 }

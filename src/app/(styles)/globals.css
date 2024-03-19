@@ -6,15 +6,6 @@
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-
-  }
-}
-
 * {
   padding: 0;
   margin: 0;
@@ -27,7 +18,29 @@ body {
 }
 
 body {
-     background:  #282c34; 
+  background:  #282c34; 
+}
+
+.section {
+  background:  #282c34;
+}
+
+.heading-big {
+  color: #abb2bf;
+  font-size: 1.75rem;
+}
+
+.heading-small {
+  color: #abb2bf;
+  font-size: 1.25rem;
+}
+
+.bodytext {
+  max-width: 80%;
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;
+  color: #abb2bf;
 }
 
 a {
@@ -39,17 +52,18 @@ button {
   border: none;
 }
 
+/* horizontal rule */
 hr {
   border: none; /* Remove default border */
   height: 2px; /* Set the height of the rule */
   background-color:  #abb2bf; /* Set the color of the rule */
   margin: 20px 0; /* Add some margin for spacing */
 
-  @media (max-width: 390px) {
-    width: 1rem;
+  @media (max-width: 844px) {
+
   }
 
-  @media (minwidth: 1000px) {
-    width: 55rem;
+  @media (min-width: 1024px) {
+    width: 90%;
   }
 }
