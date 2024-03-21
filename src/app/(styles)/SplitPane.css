@@ -3,8 +3,7 @@
     width: 100%;
     display: flex;
     background:  #282c34;
-    position: absolute;
-    top: 8rem;
+    margin: 2rem;
 
     /* Desktop */
     @media (min-width: 1024px) {

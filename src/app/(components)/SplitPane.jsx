@@ -2,7 +2,9 @@ import '../(styles)/SplitPane.css';
 import '../(styles)/globals.css'
 import Image from 'next/image';
 import Link from 'next/link';
+import { Button } from '@chakra-ui/react';
 
+            <a className="bodytext">View some projects on my GitHub</a>
 function SplitPane() {
 
   return (

@@ -1,0 +1,11 @@
+
+.skillset__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+}
+
+hr.skillset__border {
+    width: 70%;
+}
