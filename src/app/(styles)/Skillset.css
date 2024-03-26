@@ -1,11 +1,24 @@
+.skillset {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
 .skillset__container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-evenly;
     margin: 2rem;
+    flex-wrap: wrap;
 }
 
 hr.skillset__border {
     width: 70%;
+}
+
+.skillset__text {
+    font-size: 2.5rem; 
 }

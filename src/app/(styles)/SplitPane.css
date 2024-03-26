@@ -2,12 +2,12 @@
     height: auto;
     width: 100%;
     display: flex;
-    background:  #282c34;
+    background:  #323640;
     margin: 2rem;
 
     /* Desktop */
     @media (min-width: 1024px) {
-        justify-content: end;
+        justify-content: center;
         align-items: center;
     }
 
