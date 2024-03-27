@@ -10,7 +10,7 @@ function SplitPane() {
 
       <div className="split__image">
         <img
-            src="/imgs/shedrick.jpg" alt="Me" className="split__image-profile" 
+            src="/imgs/shedrick_williams.jpg" width={400} height={400} alt="Shedrick Williams" className="split__image-profile" 
         /> 
       </div>
 
