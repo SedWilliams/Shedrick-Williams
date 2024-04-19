@@ -14,9 +14,9 @@ function Navbar() {
         </div>
 
       <div className="menu navbar__right">
-          <Link href="https://www.youtube.com/@shedrickwilliams4175" className='navbar__right-text heading-small'><img />Youtube</Link>
-          <Link href="https://github.com/SedWilliams" className='navbar__right-text heading-small'><img />Github</Link>
-          <Link href="/Blog" className='navbar__right-text heading-small underline-animation'>Blog</Link>
+          <Link href="https://www.youtube.com/@shedrickwilliams4175" className='navbar__right-text heading-small' target="_blank"><img />Youtube</Link>
+          <Link href="https://github.com/SedWilliams" className='navbar__right-text heading-small' target="_blank"><img />Github</Link>
+          <Link href="/Blog" className='navbar__right-text heading-small underline-animation' target="_blank">Blog</Link>
       </div>
     </div>
   );
