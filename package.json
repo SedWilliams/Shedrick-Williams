@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@theme-ui/match-media": "^0.16.2",
     "@vercel/analytics": "^1.2.2",
     "next": "14.0.2",
     "react": "^18",
